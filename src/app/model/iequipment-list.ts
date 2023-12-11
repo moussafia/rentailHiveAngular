@@ -4,5 +4,9 @@ export interface IEquipmentList {
     quantity: number;
     pricePerDay: number;
     manufacturerName: string;
-    category: any[];
+    category: ICategory;
+}
+export interface ICategory{
+    id: number,
+    name: string
 }

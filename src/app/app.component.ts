@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { IEquipementDataState } from './state/equipment';
+import { IEquipmentList } from './model/iequipment-list';
 
 @Component({
   selector: 'app-root',
